@@ -5,7 +5,7 @@
 ### Install
 
 ```sh
-npm install "https://github.com/EvgenyiFedotov/start-packages.git#eslint/typescript"
+npm install --save-dev "https://github.com/EvgenyiFedotov/start-packages.git#eslint/typescript"
 ```
 
 ## @start-packages/webpack-typescript-node
@@ -13,5 +13,5 @@ npm install "https://github.com/EvgenyiFedotov/start-packages.git#eslint/typescr
 ### Install
 
 ```sh
-npm install "https://github.com/EvgenyiFedotov/start-packages.git#webpack/typescript-node"
+npm install --save-dev "https://github.com/EvgenyiFedotov/start-packages.git#webpack/typescript-node"
 ```
