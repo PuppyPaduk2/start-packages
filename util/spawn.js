@@ -4,7 +4,7 @@ async function spawn(command, args, { onCreate, ...options } = {}) {
   return new Promise((resolve) => {
     const stdout = [];
     const stderr = [];
-    const childProcess = spawn(command, args, options);
+    const childProcess = _spawn(command, args, options);
 
     if (onCreate) onCreate(childProcess);
 
